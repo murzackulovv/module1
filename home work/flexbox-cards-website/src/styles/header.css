@@ -1,0 +1,15 @@
+header{
+  width: 100%;
+  height: 2.5rem;
+  background-color: var(--bg-black);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+header .text__logo{
+  font-size: 1.6rem;
+  font-weight: var(--f-weight-small);
+  color: var(--color-white);
+}

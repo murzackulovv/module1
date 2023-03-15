@@ -1,0 +1,15 @@
+:root{
+  --bg-black: rgb(0, 0, 0);
+  --bg-blue-1: rgb(31, 26, 64);
+  --bg-blue-white: rgb(255, 255, 255);
+  --bg-blue-2: rgb(34, 22, 58);
+  --bg-red: rgb(186, 0, 59);
+  --color-white: white;
+  --f-family: 'Montserrat', sans-serif;
+  --f-weight-bold: 700;
+  --f-weight-medium: 400;
+  --f-weight-small: 200;
+  --b-radius-30: 30px;
+  --b-radius-100: 100%;
+  --b-radius-5: 5px;
+}

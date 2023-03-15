@@ -1,0 +1,560 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  width: 100%;
+  height: 100%;
+  background: rgb(0, 0, 0);
+  padding: 10px;
+}
+
+/* ===================== Стилизация карточки №5 */
+
+header{
+  max-width: 1440px;
+  height: 65px;
+  padding: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  cursor: pointer;
+  border: 1px solid rgba(0, 0, 0, 0.077);
+  border-radius: 10px;
+  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+  margin: 0 auto;
+}
+
+header .links{
+  width: 100%;
+  height: 65px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 24px;
+  padding: 4px;
+}
+
+header .links img{
+  width: 80px;
+  height: 40px;
+}
+
+header .links ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  transition: 0.5s;
+}
+
+header .links ul li{
+  list-style-type: none;
+  padding: 8px;
+  font-family: 'Circular Pro', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  list-style-type: none;
+  line-height: 20px;
+  text-align: center;
+  transition: 0.5s;
+  border-radius: 5px;
+}
+
+header .links ul li a{
+  text-decoration: none;
+  color: black;
+  list-style-type: none;
+  line-height: 20px;
+  text-align: center;
+  transition: 0.5s;
+  border-radius: 5px;
+}
+
+header .links ul li:hover{
+  background-color: rgba(0, 0, 0, 0.078);
+}
+
+header .links ul .active{
+  width: 50px;
+  border-radius: 15px;
+  background: #DF7B00;
+  color: white;
+  text-align: center;
+}
+
+header .settings{
+  width: 100%;
+  height: 65px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 12px;
+}
+
+header .settings .links{
+  width: 270px;
+  height: 45px;
+}
+
+header .settings .links .box1{
+  padding: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header .settings .links .box1 img{
+  width: 25px;
+  height: 16px;
+  border-radius: 3px;
+}
+
+header .settings .links .box1 p{
+  font-family: 'Circular Pro', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  text-transform: uppercase;
+  padding-left: 8px;
+}
+
+header .settings .links .box2{
+  font-family: 'Circular Pro', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: 6px;
+}
+
+header .settings .links .box3{
+  padding: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header .settings .links .box3 img{
+  width: 25px;
+  height: 25px;
+  border-radius: 3px;
+}
+
+header .settings .links .box3 p{
+  font-family: 'Circular Pro', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  text-transform: uppercase;
+  padding-right: 8px;
+}
+
+
+header .settings .burger-menu{
+  width: 45px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 2px;
+  font-size: 30px;
+  transition: 0.5s;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0);
+}
+
+header .settings .burger-menu:hover{
+  background-color: rgba(0, 0, 0, 0.055);
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.289);
+}
+
+section{
+  width: 100%;
+  height: 3800px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+section a{
+  text-decoration: none;
+}
+
+/* ===================== Стилизация карточки №1 */
+
+.container{
+  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+  max-width: 960px;
+  border-radius: 10px;
+  border: 1px solid rgb(192, 192, 192);
+  margin: 0px auto;
+  margin-bottom: 30px;
+  padding: 24px 24px 0px 24px ;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.container:hover{
+  box-shadow: rgba(98, 151, 255, 0.181) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.container .header{
+  width: 100%;
+  height: 96px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container .header .title{
+  font-family: 'PS TT Commons', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.container .header .exit{
+  font-size: 16px;
+  margin-bottom: 85px;
+  cursor: pointer;
+}
+
+.container .text{
+  font-family: 'PS TT Commons', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.container .btns{
+  width: 100%;
+  height: 88px;
+  /* background-color:rgb(213, 213, 213); */
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 16px;
+}
+
+.container .btns button{
+  border-radius: 3px;
+  padding: 10px 12px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  font-family: 'PS TT Commons', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  transition: 0.5s;
+}
+
+.container .btns .white_btn{
+  background: rgba(138, 153, 168, 0.2);
+}
+
+.container .btns .white_btn:hover{
+  background: rgba(138, 153, 168, 0.453);
+
+}
+
+.container .btns .blue_btn{
+  background: #0074AB;
+  color: white;
+}
+
+.container .btns .blue_btn:hover{
+  background: #0093d8;
+}
+
+/* ===================== Стилизация карточки №2 */
+
+.container-2{
+  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+  max-width: 400px;
+  border-radius: 10px;
+  border: 1px solid rgb(192, 192, 192);
+  margin: 0px auto;
+  padding: 24px 24px 0px 24px ;
+  transition: 0.5s;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+
+.container-2:hover{
+  box-shadow: rgba(98, 151, 255, 0.181) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.container-2 .header{
+  width: 100%;
+  height: 96px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container-2 .header .title{
+  font-family: 'PS TT Commons', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.container-2 .header .exit{
+  font-size: 16px;
+  margin-bottom: 85px;
+  cursor: pointer;
+}
+
+.container-2 .text{
+  font-family: 'PS TT Commons', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.container-2 .btns{
+  width: 100%;
+  height: 88px;
+  /* background-color:rgb(213, 213, 213); */
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 16px;
+}
+
+.container-2 .btns button{
+  border-radius: 3px;
+  padding: 10px 12px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  font-family: 'PS TT Commons', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  transition: 0.5s;
+}
+
+.container-2 .btns .white_btn{
+  background: rgba(138, 153, 168, 0.2);
+}
+
+.container-2 .btns .white_btn:hover{
+  background: rgba(138, 153, 168, 0.453);
+
+}
+
+.container-2 .btns .blue_btn{
+  background: #0074AB;
+  color: white;
+}
+
+.container-2 .btns .blue_btn:hover{
+  background: #0093d8;
+}
+
+/* ===================== Стилизация карточки №3 */
+
+.container-3{
+  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+  max-width: 640px;
+  border-radius: 10px;
+  border: 1px solid rgb(192, 192, 192);
+  margin: 0px auto;
+  padding: 24px 24px 0px 24px ;
+  transition: 0.5s;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+
+.container-3:hover{
+  box-shadow: rgba(98, 151, 255, 0.181) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.container-3 .header{
+  width: 100%;
+  height: 96px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container-3 .header .title{
+  font-family: 'PS TT Commons', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.container-3 .header .exit{
+  font-size: 16px;
+  margin-bottom: 85px;
+  cursor: pointer;
+}
+
+.container-3 .text{
+  font-family: 'PS TT Commons', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.container-3 .btns{
+  width: 100%;
+  height: 88px;
+  /* background-color:rgb(213, 213, 213); */
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 16px;
+}
+
+.container-3 .btns button{
+  border-radius: 3px;
+  padding: 10px 12px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  font-family: 'PS TT Commons', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  transition: 0.5s;
+}
+
+.container-3 .btns .white_btn{
+  background: rgba(138, 153, 168, 0.2);
+}
+
+.container-3 .btns .white_btn:hover{
+  background: rgba(138, 153, 168, 0.453);
+
+}
+
+.container-3 .btns .blue_btn{
+  background: #0074AB;
+  color: white;
+}
+
+.container-3 .btns .blue_btn:hover{
+  background: #0093d8;
+}
+
+/* ===================== Стилизация карточки №4 */
+
+.container-4{
+  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+  max-width: 540px;
+  border-radius: 10px;
+  border: 1px solid rgb(192, 192, 192);
+  margin: 0px auto;
+  padding: 24px;
+  transition: 0.5s;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+
+.container-4:hover{
+  box-shadow: rgba(98, 151, 255, 0.181) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.container-4 img{
+  width: 203px;
+  height: 120px;
+  margin-bottom: 16px;
+}
+
+.container-4 p{
+  font-family: 'Circular Pro', sans-serif;
+  line-height: 20px;
+}
+
+.container-4 .title{
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: #252A31;
+}
+
+.container-4 .text{
+  font-weight: 400;
+  font-size: 14px;
+  color: #4F5E71;
+  font-family: 'Circular Pro', sans-serif;
+  margin-bottom: 16px;
+}
+
+.container-4 div{
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.container-4 div button{
+  background: #00A58E;
+  color: white;
+  padding: 12px 16px;
+  outline: none;
+  border: none;
+  border-radius: 3px;
+}
+
+.container-5{
+  background-color: #fff;
+  max-width: 345px;
+  border-radius: 10px;
+  border: 1px solid rgb(192, 192, 192);
+  margin: 0 auto;
+  transition: 0.5s;
+  cursor: pointer;
+  padding: 10px 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.container-5:hover{
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.container-5 .left-box{
+  padding: 2px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+  padding-right: 129px;
+}
+
+.container-5 .left-box img{
+  width: 19px;
+  height: 19px;
+}
+
+.container-5 .left-box p{
+  font-family: 'Circular Pro', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: #252A31;
+}
+
+.container-5 .icon{
+  width: 20px;
+  height: 20px;
+  text-align: center;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="Cards components" content="Cards components">
+  <link rel="stylesheet" href="./cards.css">
+  <title>Card components</title>
+</head>
+<body>
+  <section class="section-card">
+    <div class="card-image"></div>
+    <div class="card">
+      <h3>Dev specs for PillButton</h3>
+      <div class="content">
+      <p class="bold">Props:</p>
+        <p class="text">icon - selection from our icons (optional)</p>
+      <p class="bold">Spacing:</p>
+        <p class="text">Left/right padding 12px, top/pottom padding 6px, space petween icon and text 4px</p>
+      <p class="bold">Position:</p>
+        <p class="text">Vertical - 16px from the top of the parent container Horizontal - centered</p>
+      <p class="bold">Behavior: <span class="underline">(check the prototype)</span></p>
+      <ol>
+        <li>
+          <p class="bold">Showing the button</p>
+            <p class="text">Animated from the top (slide down + opacity 0 to 100), animation length: 300ms, easing: out back</p>
+        </li>
+        <li>
+          <p class="bold">Clicking the button</p>
+            <p class="text">Opposite animation (slide up + opacity 100 to 0), animation length: 300ms, easing: in back</p>
+        </li>
+      </ol>
+    </div>
+    </div>
+    
+    <div class="card-list">
+      <div class="content">
+        <h3>Development changes</h3>
+        <p class="text">General</p>
+        <ul>
+          <li>Change Tooltip paddings to 8px 12px (space between message and icon should be 8px)</li>
+          <li>Label font-weight should be changed from Normal to Medium</li>
+        </ul>
+        <p class="text">Help message</p>
+        <ul>
+          <li>Help mesagge change Tooltip background from Blue Dark to Blue Normal.</li>
+          <li>Change icon color next to Label  to Blue Normal</li>
+        </ul>
+        <p class="text">Error message</p>
+        <ul>
+          <li>Error mesagge change Tooltip background from Red Dark to Red Normal.</li>
+          <li>Change icon color next to Label  to Red Normal</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
+
+

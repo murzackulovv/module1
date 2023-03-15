@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&family=Quicksand:wght@300&family=Righteous&family=Secular+One&family=Sono:wght@200&family=Unbounded:wght@800&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Circular Pro', sans-serif;
+
+}
+
+
+
+body{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to top, #96fbc4 0%, #f9f586 100%);
+}
+
+section{
+  /* background-color:black; */
+  margin-bottom: 200px;
+}
+
+.card{
+  max-width: 554px;
+  background: #252A31;
+  border-radius: 6px;
+  margin: 20px;
+  padding: 32px;
+  cursor: pointer;
+  transition: 0.4s;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.card:hover{
+  background-image: linear-gradient(to right\, #161616 100%, black 0%);
+  box-shadow: 12px 12px 0px black;
+}
+
+/* .card .content{
+  border: 1px solid rgb(86, 86, 86);  
+} */
+
+.card h3{
+  font-size: 28px;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 8px;
+}
+
+.card .content .bold{
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22px;
+  color: white;
+}
+
+.card .content .bold .underline{
+  text-decoration: underline;
+}
+
+.card .content .text{
+  font-size: 14px;
+  font-weight: 200;
+  line-height: 20px;
+  color: white;
+  padding-bottom: 18px;
+}
+
+.card .content ol li{
+  color: white;
+  font-weight: 700;
+}
+
+.card-image{
+  width: 160px;
+  height: 160px;
+  margin: 0 auto;
+  background-image: url('./_Avatar\ -\ Base.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: red; */
+  border-radius: 100%;
+  transition: 0.4s;
+}
+
+.card-image:hover{
+  box-shadow: rgba(0, 0, 0, 0.271) 0px 10px 36px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 1px;
+}
+
+/* -------------------------- */
+
+.card-list{
+  width: 250px;
+  height: 415px;
+  background: #FFF4CD;
+  padding: 8px;
+  margin: 0 auto;
+  margin-top: 30px;
+  border-radius: 10px;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.card-list .content{
+  /* border: 1px solid black; */
+}
+
+.card-list .content h3{
+  font-weight: 700;
+  font-size: 14px;
+  /* padding-bottom: 10px; */
+}
+
+.card-list .content .text{
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.card-list .content ul li{
+  font-size: 14px;
+  font-weight: 100;
+  padding-bottom: 10px;
+  margin-left: 15px;
+}

@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&family=Quicksand:wght@300&family=Righteous&family=Secular+One&family=Sono:wght@200&family=Unbounded:wght@800&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* здесь стилизован основной контейнер (темно синий блок) */
+.card-code{
+  width: 720px;
+  height: 468px;
+  background: #1E2429;
+  border-radius: 3px;
+  padding: 20px 130px 28px 38px;
+  margin: 50px;
+}
+/* здесь стилизован контейнер внутри основного контейнера предназначенный для позиционирование с белой границей */
+.card-code .card {
+  width: 552px;
+  height: 425px;
+  border: 1px solid rgba(255, 255, 255, 0.095);
+  color: white;
+  font-family: 'Sono', sans-serif;
+  font-weight: 600;
+  font-size: 18x;
+  line-height: 20x;
+}
+
+/* синий текст */
+.card-code .card p .blue{
+  color: #8AC7E6;
+}
+/* голубой текст */
+.card-code .card p .aqua{
+  color:#ABD9C6;
+}
+/* красный текст */
+.card-code .card p .red{
+  color:#F26D6D;
+}
+/* зеленый текст */
+.card-code .card p .green{
+  color:#8ce68a;
+}
+

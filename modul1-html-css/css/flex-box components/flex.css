@@ -1,0 +1,131 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* 
+div{
+  width: 200px;
+  height: 200px;
+  border: 1px solid rgb(0, 0, 0);
+}
+
+.container{
+  width: 100%;
+  background-color: rgb(157, 157, 157);
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.flex-1 {
+  background-color: #c2f5ff;
+}
+.flex-2 {
+  background-color: #ffd7d6;
+}
+.flex-3 {
+  background-color: #ebebeb;
+}
+.flex-4 {
+  background-color: #ffe4c2;
+}
+.flex-5 {
+  background-color: #c7ffdd;
+} */
+
+
+.container{
+  max-width: 960px;
+  border-radius: 10px;
+  border: 1px solid rgb(192, 192, 192);
+  margin: 10px;
+  padding: 24px 24px 0px 24px ;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.container:hover{
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.container .header{
+  width: 100%;
+  height: 96px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+}
+
+.container .header .title{
+  font-family: 'PS TT Commons', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.container .header .exit{
+  font-size: 16px;
+  margin-bottom: 85px;
+  cursor: pointer;
+}
+
+.container .text{
+  font-family: 'PS TT Commons', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.container .btns{
+  width: 100%;
+  height: 88px;
+  /* background-color:rgb(213, 213, 213); */
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 16px;
+}
+
+.container .btns button{
+  border-radius: 3px;
+  padding: 10px 12px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  font-family: 'PS TT Commons', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  transition: 0.5s;
+}
+
+.container .btns .white_btn{
+  background: rgba(138, 153, 168, 0.2);
+}
+
+.container .btns .white_btn:hover{
+  background: rgba(138, 153, 168, 0.453);
+
+}
+
+.container .btns .blue_btn{
+  background: #0074AB;
+  color: white;
+}
+
+.container .btns .blue_btn:hover{
+  background: #0093d8;
+}
